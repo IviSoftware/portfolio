@@ -1,0 +1,9 @@
+:root{
+    --projects-color:#160824;
+}
+
+.Projects{
+    background-color: var(--projects-color);
+    width: 100%;
+    height: 700px;
+}

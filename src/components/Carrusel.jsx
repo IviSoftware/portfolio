@@ -19,11 +19,12 @@ const iconsMain=[
 ]
 
 function Carrusel() {
+    
   return (
     <div className='Carrusel'>
             <div className="carrusel-circle">
                 {iconsMain.map((icon,index)=>(
-                    <div className={`BubbleTech bubble-${index}`}>
+                    <div key={index} className={`BubbleTech bubble-${index}`}>
                         <img src={icon} />
                     </div>
                 ))}
