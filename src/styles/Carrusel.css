@@ -1,0 +1,44 @@
+:root{
+    --widht-circle:370px;
+}
+
+.Carrusel{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.carrusel-imageMain{
+    width: 290px;
+    position: absolute;
+    top:30px;
+    left: 40px;
+    z-index: 10;
+}
+
+.carrusel-circle{
+    
+    width: var(--widht-circle);
+    height: var(--widht-circle);
+    border-radius: 50%;
+    border: 1px solid var(--javascript-color);
+    z-index: 20;
+    animation-name: load;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    
+}
+
+@keyframes load {
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
+

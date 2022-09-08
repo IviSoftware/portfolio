@@ -1,0 +1,55 @@
+:root{
+    --width-bubble:70px;
+}
+
+.BubbleTech{
+    width: var(--width-bubble);
+    height: var(--width-bubble);
+    position: absolute;
+    border-radius: 50%;
+    /* background-color: red; */
+    background: linear-gradient(180deg, rgb(76 76 76 / 10%) 0%, rgb(0 0 0 / 0%) 100%);;
+    border: 1px solid #F7DF1E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.BubbleTech img{
+    width: 35px;
+}
+
+.BubbleTech.bubble-0{
+    top:-30px;
+    left: 150px;
+}
+
+.BubbleTech.bubble-1{
+    top:50px;
+    right: -10px;
+}
+
+.BubbleTech.bubble-2{
+    top:45px;
+    left: -10px;
+}
+
+.BubbleTech.bubble-2 img{
+    background-color: white;
+    border-radius: 50%;
+}
+
+.BubbleTech.bubble-3{
+    top:210px;
+    left: -25px;
+}
+
+.BubbleTech.bubble-4{
+    bottom: -30px;
+    left: 140px;
+}
+
+.BubbleTech.bubble-5{
+    bottom: 50px;
+    right: -10px;
+}
