@@ -1,9 +1,7 @@
 import React from 'react';
 import '../styles/Projects.css';
 import Divider from '../components/Divider';
-import cssIcon from '../img/icons_projects/css_iconProject.svg';
-import reactIcon from '../img/icons_projects/react_iconProject.svg';
-import javascriptIcon from '../img/icons_projects/javascript_iconProject.svg';
+import CardProject from '../components/CardProject';
 
 function Projects() {
   return (
@@ -25,6 +23,21 @@ function Projects() {
           </div>
         </div>
       </div>
+
+      <div className="container-cards__projects">
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+        <CardProject />
+      </div>
+
     </section>
   )
 }
