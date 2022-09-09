@@ -34,18 +34,21 @@ function Projects() {
 
   const [myProjects,setMyProjects] = React.useState([...projects]);
 
+
   const projectsChange = (type)=>{
     let newProjects = [];
+
     if(type === 'all'){
       newProjects = [...projects]
-      console.log('all',newProjects)
       setMyProjects(newProjects);
-    }else{
-      newProjects = myProjects.filter((project)=>{
+    }
+    else
+    {
+      
+      newProjects = projects.filter((project)=>{
         return project.type === type
       })
-      console.log(newProjects)
-      setMyProjects('projectos',newProjects);
+      setMyProjects(newProjects);
     }
   }
 
@@ -88,14 +91,13 @@ function Projects() {
 
       <div className="container-cards__projects">
         {
-          myProjects.map((myProject,index)=>{
-            {/* <CardProject 
-              key={index} 
-              imgProject={myProject.previewImage}
-              icons={myProject.tools} 
-              /> */}
-              console.log(myProject,index)
-          })
+          myProjects.map((p,index) => (
+            <CardProject 
+            key={index}
+            imgProject={p.previewImage}
+            icons={p.tools}
+            />
+          ))
         }
       </div>
 
