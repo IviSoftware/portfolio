@@ -1,9 +1,67 @@
 :root{
     --projects-color:#160824;
+    --margin-menu--projects:15px;
+    --title-size--section:2rem;
+    
 }
 
 .Projects{
     background-color: var(--projects-color);
     width: 100%;
     height: 700px;
+    position:relative;
+    padding-top: 150px;
 }
+
+.menu_Section{
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_icons{
+    display: flex;
+    list-style: none;
+}
+
+
+.menu_icons i {
+    font-size: 2.9rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menu_icons i:hover{
+    color:var(--javascript-color)
+}
+
+.titleSection{
+    font-size: var(--title-size--section);
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.menu_icons .projects_icon:nth-child(3){
+    width: 35px;
+}
+
+.menu_icons div{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background-color: rgba(0, 0, 0, 0);
+    cursor:pointer;
+    transition: all 0.2s linear;
+}
+
+.menu_icons div:hover{
+    background-color: #080924;
+    transform: scale(1.2);
+}
+
