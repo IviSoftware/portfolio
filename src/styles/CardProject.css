@@ -10,6 +10,7 @@
     position:relative;
     z-index: 10;
     margin-bottom: 25px;
+    margin-right: 20px;
 }
 
 .preview__project{
@@ -54,4 +55,9 @@
 .btn_visit__project:hover{
     background-color: #fff397;
     transform: scale(1.2);
+}
+
+.btn_visit__project a{
+    text-decoration: none;
+    color: black;
 }

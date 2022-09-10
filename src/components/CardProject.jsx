@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/CardProject.css';
 
-function CardProject({imgProject,icons}) {
+function CardProject({imgProject,icons,linkToPage}) {
   return (
     <div className='CardProject'>
         <div className='cardBackground'>
@@ -10,7 +10,7 @@ function CardProject({imgProject,icons}) {
                       <i key={index} className={icon}></i>
                     ))}
             </p>
-        <button className='btn_visit__project'>Visitar</button>
+        <button className='btn_visit__project'><a href={linkToPage} target="_blank">Visitar</a></button>
         </div>
 
        <img 

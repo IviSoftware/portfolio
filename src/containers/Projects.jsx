@@ -10,24 +10,16 @@ const projects = [
     projectName:'TodoList',
     tools:['fa-brands fa-react','fa-brands fa-css3-alt'],
     type: types[0],
-    linkToPage:'',
-    previewImage:'https://cdnplatzi.s3-us-west-2.amazonaws.com/Platzi-Blog/Platzi+App+Android+iOS+6.png'
+    linkToPage:'https://ivisoftware.github.io/ivi_task/',
+    previewImage:'https://raw.githubusercontent.com/IviSoftware/imagesPortfolio/main/react_projects__images/iviTask.png'
   },
   {
-    projectName:'Calculator',
-    tools:['fa-brands fa-square-js','fa-brands fa-css3-alt'],
+    projectName:'Binary',
+    tools:['fa-brands fa-square-js','fa-brands fa-css3-alt','fa-brands fa-html5'],
     type: types[1],
-    linkToPage:'',
-    previewImage:'https://i.pinimg.com/originals/bf/a6/41/bfa64106e45b4a598e58560d08352c8d.jpg'
+    linkToPage:'https://ivisoftware.github.io/binary/',
+    previewImage:'https://raw.githubusercontent.com/IviSoftware/imagesPortfolio/main/js_projects__images/binary.png'
   },
-  {
-    projectName:'Landing',
-    tools:['fa-brands fa-css3-alt','fa-brands fa-html5'],
-    type: types[2],
-    linkToPage:'',
-    previewImage:'https://global-uploads.webflow.com/5c06e16a5bdc7bce10059cc3/5e29783c4f620b6290a9bdd8_5oH11isTf3Hi9fwEx3ttZsGUmbth-m1NRNnAKEUZkidjgRbqqp9yl3d4snYR4cFERf_NwWJthYLaQLcGkYjpB2VVqDxwhU-wK3E0IGS_ZEdaQjH_z8mhV0-nPv_fMXinJg3oN19T.png'
-  },
-
 ]
 
 function Projects() {
@@ -96,6 +88,7 @@ function Projects() {
             key={index}
             imgProject={p.previewImage}
             icons={p.tools}
+            linkToPage={p.linkToPage}
             />
           ))
         }
