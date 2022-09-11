@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import About from './About';
 import Header from './Header';
 import Projects from './Projects';
 
@@ -9,6 +10,7 @@ function App() {
      <Navbar />
      <Header />
      <Projects />
+     <About />
     
     </div>  
   );

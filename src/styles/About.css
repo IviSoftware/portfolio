@@ -1,0 +1,60 @@
+.About{
+    width: 100%;
+    color: white;
+    padding: 50px;
+}
+
+.about-content__container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-img{
+    width: 330px;
+}
+
+.about-my{
+    width: 550px;
+    font-size: 1.6rem;
+}
+
+.title-section__About{
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+
+.container_text_about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn_cv{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: var(--javascript-color);
+    cursor:pointer;
+    transition: all 0.2s linear;
+}
+
+.btn_cv a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.btn_cv:hover{
+    transform: scale(1.2);
+    font-weight: bold;
+    
+}
