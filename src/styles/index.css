@@ -22,3 +22,11 @@ html{
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
+
+@media (max-width:720px){
+
+  body{
+    padding-top: 100px;
+  }
+  
+}

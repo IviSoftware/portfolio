@@ -17,7 +17,7 @@
 }
 
 .about-my{
-    width: 550px;
+    width: 50%;
     font-size: 1.6rem;
 }
 
@@ -25,11 +25,12 @@
     font-size: 1.8rem;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 
 
 .container_text_about{
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -57,4 +58,16 @@
     transform: scale(1.2);
     font-weight: bold;
     
+}
+
+@media (max-width:710px){
+    .about-my{
+        width: 90%;
+        text-align: center;
+    }
+
+
+    .container_text_about{
+        width: 100%;
+    }
 }

@@ -59,5 +59,16 @@
 }
 
 
+@media (max-width:720px){
+    .Navbar{
+        width: 100%;
+        height: auto;
+        padding-bottom: 10px;
+        flex-direction: column;
+    }
+    
+}
+
+
 
 
