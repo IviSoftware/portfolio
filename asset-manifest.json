@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ade692f4.css",
+    "main.js": "/portfolio/static/js/main.35770813.js",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.5867db77cfb468bc2c30.pdf",
+    "static/media/profile_image.png": "/portfolio/static/media/profile_image.6e502cb5210dfb10a2de.png",
+    "static/media/ImagenPrincipal.png": "/portfolio/static/media/ImagenPrincipal.f0d08ae403748ec78860.png",
+    "static/media/react.svg": "/portfolio/static/media/react.e27571eaed899c642345e71163624ef9.svg",
+    "static/media/studio-code.svg": "/portfolio/static/media/studio-code.f57bbf46dad2409e508cb50781867a39.svg",
+    "static/media/github.svg": "/portfolio/static/media/github.04ed74f38b41cdcbf14f80ae8cd0aa2b.svg",
+    "static/media/javascript.svg": "/portfolio/static/media/javascript.fd46ca41839433d73577989d86eb2fe2.svg",
+    "static/media/html.svg": "/portfolio/static/media/html.eb356479d50fb8597229cc93221f2c11.svg",
+    "static/media/css.svg": "/portfolio/static/media/css.82b089d3d4cca1cbc26005c8fbdaf33d.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/waves.svg": "/portfolio/static/media/waves.32671caab47253d84e3af28d80ff99fc.svg",
+    "main.ade692f4.css.map": "/portfolio/static/css/main.ade692f4.css.map",
+    "main.35770813.js.map": "/portfolio/static/js/main.35770813.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ade692f4.css",
+    "static/js/main.35770813.js"
+  ]
+}
